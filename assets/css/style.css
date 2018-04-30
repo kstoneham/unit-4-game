@@ -10,7 +10,7 @@
 #instructions-pane {
     padding-bottom: 25px;
 }
-#target-score {
+#targetScore {
     background-color: white;
     height: 100px;
 }
@@ -23,7 +23,7 @@
 #crystal-images {
     padding-bottom: 25px;
 }
-#score {
+#currentScore {
     background-color: white;
     color: green;
 }

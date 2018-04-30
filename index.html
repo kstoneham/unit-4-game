@@ -8,8 +8,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-
-
     <title>Crystal Collector</title>
 </head>
 <body>
@@ -38,9 +36,12 @@
     <div class="container" id="stats-target-score">
         <div class="row">
             <div class="col-md-2"></div>
-            <div class="col-md-3" id="target-score">target-score</div>
+            <div class="col-md-3" id="targetScore" style="text-align: center;"></div>
             <div class="col-md-2"></div>
-            <div class="col-md-3" id="stats">stats</div>
+            <div class="col-md-3" id="stats">
+                <p>Wins: 0</p>
+                <p>Losses: 0</p>
+            </div>
             <div class="col-md-2"></div>
         </div>
     </div>
@@ -49,25 +50,17 @@
     <div class="container" id="crystal-images">
         <div class="row" id="crystals">
             <div class="col-md-2"></div>
-            <div class="col-md-2">
-                <button id="crystal1">                
-                    <img src="assets/images/crystal1.jpeg" alt="crystal1">
-                </button>
+            <div class="col-md-2" id="crystal1">
+                <img src="assets/images/crystal1.jpeg" alt="crystal1">
             </div>
-            <div class="col-md-2">
-                <button id="crystal2">                    
-                    <img src="assets/images/crystal2.jpeg" alt="crystal2">
-                </button>
+            <div class="col-md-2" id="crystal2">
+                <img src="assets/images/crystal2.jpeg" alt="crystal2">
             </div>
-            <div class="col-md-2">
-                <button id="crystal3">
-                    <img src="assets/images/crystal3.jpeg" alt="crystal3">
-                </button>
+            <div class="col-md-2" id="crystal3">
+                <img src="assets/images/crystal3.jpeg" alt="crystal3">
             </div>
-            <div class="col-md-2">
-                <button id="crystal4">
-                    <img src="assets/images/crystal4.jpeg" alt="crystal4">
-                </button>
+            <div class="col-md-2" id="crystal4">
+                <img src="assets/images/crystal4.jpeg" alt="crystal4">
             </div>
             <div class="col-md-2"></div>
 
@@ -78,7 +71,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-2"></div>
-                <div class="col-md-8" id="score">score</div>
+                <div class="col-md-8" id="currentScore"></div>
                 <div class="col-md-2"></div>
             </div>
         </div>
